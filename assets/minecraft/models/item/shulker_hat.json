@@ -1,0 +1,34 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "item/hats/shulker_hat",
+		"particle": "item/hats/shulker_hat"
+	},
+	"elements": [
+		{
+			"from": [3.5, 0, 3.5],
+			"to": [12.5, 9, 12.5],
+			"faces": {
+				"north": {"uv": [5.5, 0, 10, 4.5], "texture": "#1"},
+				"east": {"uv": [5.5, 0, 10, 4.5], "texture": "#1"},
+				"south": {"uv": [5.5, 0, 10, 4.5], "texture": "#1"},
+				"west": {"uv": [5.5, 0, 10, 4.5], "texture": "#1"},
+				"up": {"uv": [0, 0, 4.5, 4.5], "texture": "#1"},
+				"down": {"uv": [0, 5.5, 4.5, 10], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [34, -160, 0],
+			"translation": [0, 6.75, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"head": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 5.75, 0],
+			"scale": [1.65, 1.65, 1.65]
+		}
+	}
+}
